@@ -1,0 +1,37 @@
+name: introduction
+description: Introduction to @bkaltug's Flutter journey.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.6 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.3.2
+  google_fonts: ^5.1.0
+  url_launcher: ^6.1.12
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/launcher_icon.png"
+
+flutter_native_splash:
+  color: "#42a5f5"
+  android: true
+  ios: true
+  android_12:
+    image: "assets/icons/launcher_icon.png"
+    color: "#42a5f5"
+
+flutter:
+  uses-material-design: true
