@@ -83,7 +83,7 @@ class IntroductionPage extends StatelessWidget {
                     "\n\nSuch as this introductive application, any other applications marked with ",
                 style: textStyle),
             TextSpan(
-                text: "\"-LR\" ",
+                text: "\"-v2\" ",
                 style: textStyle.copyWith(fontWeight: FontWeight.bold)),
             TextSpan(
                 text:
